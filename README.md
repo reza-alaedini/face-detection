@@ -14,6 +14,6 @@ The page will reload if you make edits.\
 You will also see any lint errors in the console.
 
 ### `Contact With Me:`
-- My [https://reza-alaedini.vercel.app](Website!)
-- My [https://github.com/reza-alaedini](Github!)
+- My [Website!](https://reza-alaedini.vercel.app)
+- My [Github!](https://github.com/reza-alaedini)
 
