@@ -1,22 +1,10 @@
-# FaceMash Application
+# Face Detection Project For "Ai" Lesson in University
 
-See the full tutorial of this source code at the following address:
-https://www.youtube.com/watch?v=pNQ8wOYG3SA
-
-## Get in touch with me on: 
-
-website:
-http://neonlearn.ir
-
-telegram:
-https://t.me/neonlearnir
-
-instagram:
-https://www.instagram.com/m_h_sw/
-
-youtube:
-https://youtube.com/neonlearn
-
+***used packages:***
+- react
+- react-webcam
+- @tensorflow/tfjs
+- @tensorflow-models/face-landmarks-detection
 ### `npm start`
 
 Runs the app in the development mode.
