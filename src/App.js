@@ -45,12 +45,16 @@ function App() {
     <>
       <div className="App">
         <div className="info-bar">
-          <h4>Reza Alaedini & Amir Mohammad Babaei - IT Students - Shamsipour University</h4>
+          <h4>
+            Reza Alaedini & Amir Mohammad Babaei - IT Students - Shamsipour
+            University
+          </h4>
         </div>
+        <h3>Face-Mesh | Ai Lesson Project</h3>
         <Webcam
           ref={webcamRef}
           className="webcamStyle"
-          style={{ filter: checked ? "grayscale(100%)" : "grayscale(0)" }}
+          style={{ filter: checked ? "brightness(35%)" : "grayscale(0)" }}
         />
         <canvas
           ref={canvasRef}
@@ -66,7 +70,7 @@ function App() {
           }}
         />
         <br />
-        <div style={{ marginTop: 20 }}>
+        <div style={{ marginTop: 20, fontSize: 20 }}>
           <label>Are You in Bright place?</label>
           <input
             type="checkbox"
@@ -74,6 +78,9 @@ function App() {
             onChange={() => setChecked(!checked)}
           />
         </div>
+        <p style={{ color: "white" }}>
+          Please Enable "<a href="https://shecan.ir" target="_blank">DNS</a>" For Using This App!
+        </p>
       </div>
     </>
   );
