@@ -43,11 +43,10 @@ function App() {
   runFacemesh();
   return (
     <>
-      <div style={{ textAlign: "center", overflowX: "hidden" }}>
-        <h4>Reza Alaedini - IT Student - Shamsipour University</h4>
-      </div>
       <div className="App">
-        <img src={logo} className="App-logo" />
+        <div className="info-bar">
+          <h4>Reza Alaedini & Amir Mohammad Babaei - IT Students - Shamsipour University</h4>
+        </div>
         <Webcam
           ref={webcamRef}
           className="webcamStyle"

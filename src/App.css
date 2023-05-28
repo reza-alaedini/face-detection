@@ -7,7 +7,16 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-
+  position: absolute;
+}
+.App .info-bar {
+  text-align: "center";
+  overflow-x: "hidden";
+  position: relative;
+  background-color: #fff;
+  width: 100vw;
+  margin: 0;
+  top: -100px;
 }
 
 .webcamStyle {
